@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-			echo "123";
+			echo "wang yue changed the file!!";
         ?>
     </body>
 </html>
