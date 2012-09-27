@@ -15,15 +15,16 @@ body{
 /*    overflow-x: hidden;*/
 }
 ul,ol,li,form,h1,h2,h3,h4,h5,h6,p{padding:0; margin:0; list-style-type:none;}
+h1,h2,h3,h4 {text-align: center}
 a {color: #000; font-weight: bold; text-decoration: none}
 table{border-collapse:collapse;}
 table td{overflow:hidden}
 input{background:#fff;font-family: Arial,Helvetica,sans-serif;border:1px solid #CCC;vertical-align: middle;outline:none}
 textarea{background:#ffffff;font-family: Arial,Helvetica,sans-serif;font-size:12px;color: #333333;font-weight:normal;border: 1px solid #cbcbcb;overflow-x:hidden;overflow-y:auto;resize:none;border:1px solid #CCC;vertical-align: middle;outline:none}
 a:visited {color: #5b5b5b;}
-.main {width: 900px; margin: 0 auto;  }
+.main {width: 900px; margin: 0 auto; }
 .clear {clear: both}
-.navigation_bar {margin: 10px auto; padding: 3px 0;background-color: #eee;}
+.navigation_bar {margin: 10px auto; padding: 3px 0;background-color: #eee; text-align: center;}
 /*.navigation_bar span {margin: 0 10px}*/
 .separator {margin: 0 15px;}
 .site_map {height: 16px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: 2px double gray;}
@@ -32,13 +33,22 @@ a:visited {color: #5b5b5b;}
 .left_side li {margin: 0 auto; padding: 7px 0; border-bottom: 3px double #eee; text-align: center;}
 .left_side li:first-child {background-color: #eee; border: none; font-weight: bold; font-size: 20px}
 .right_side {width: 700px; padding: 0 10px 0 0; margin-left: 15px; border: 3px #eee ridge; float: left; position: relative}
-.middle_image {width: 100%; height: 200px; overflow: hidden;}
+.middle_image {width: 100%; height: 200px; }
 .main_content {margin: 10px; padding: 5px 20px; border-top: 2px ridge #000;}
 .main_content p {margin: 15px 0; font-size: 14px}
 .main_content p span {margin-right: 10px;}
+.main_content_img {margin: 10px; padding: 5px; border-top: 2px ridge #000;}
+.main_content_img img {width: 100%}
+
+.teacher {width: 100%; height: 162px; margin: 5px 0; border: 1px solid #000}
+.teacher_image {width: 130px; height: 100%; border: 1px solid #000; float: left}
+.teacher_image img {height: 100%; overflow: hidden}
+.teacher_intro {width: 460px; height: 90%; padding: 10px; float: left}
+
 .footer {padding: 5px 20px}
 .footer p {margin: 10px 0; padding: 2px; background-color: #eee; }
 .footer p a {font-weight: normal; }
 .copyright_info {text-align: center; }
 .copyright_info p {background-color: transparent; color: #777}
 
+.text_para {text-indent: 25px; line-height: 30px; }
